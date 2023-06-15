@@ -11,7 +11,7 @@ layout="wide")
 #function to read dataset from csv file 
 @st.cache
 def read_data():
-    df = pd.read_csv("train.csv")
+    df = pd.read_csv('train.csv')
     return df
 
 #taking input from function
